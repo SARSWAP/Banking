@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SendTo">
+
+    <TextView
+        android:id="@+id/toptxt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/top"
+        android:ellipsize="start"
+        android:fadingEdge="horizontal|vertical"
+        android:fontFamily="@font/aldrich"
+        android:paddingTop="10dp"
+        android:text="    Send to"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="12dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/Recycletransaction"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toptxt"
+        tools:listitem="@layout/userslist" />
+</RelativeLayout>
