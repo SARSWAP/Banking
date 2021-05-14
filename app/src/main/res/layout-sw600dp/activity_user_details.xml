@@ -9,19 +9,20 @@
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="119dp"
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme" />
 
     <ImageView
         android:id="@+id/bkbtnn"
-        android:layout_width="62dp"
-        android:layout_height="44dp"
+        android:layout_width="185dp"
+        android:layout_height="77dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginEnd="349dp"
-        android:layout_marginRight="349dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="767dp"
+        android:layout_marginRight="767dp"
         android:rotation="-180"
         app:srcCompat="@drawable/right_arrow" />
 
@@ -37,14 +38,14 @@
             android:id="@+id/imageView7"
             android:layout_width="262dp"
             android:layout_height="185dp"
-            android:layout_marginStart="80dp"
-            android:layout_marginLeft="80dp"
+            android:layout_gravity="center|center_horizontal"
             android:layout_marginTop="30dp"
             app:srcCompat="@drawable/user__1_" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_gravity="center|center_horizontal"
             android:layout_margin="10dp"
             android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
@@ -55,22 +56,25 @@
                 android:id="@+id/Name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
                 android:text="Name:"
-                android:textSize="20sp" />
+                android:textSize="34sp" />
 
             <TextView
                 android:id="@+id/USERNAME"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
                 android:layout_marginStart="10dp"
                 android:layout_marginLeft="10dp"
                 android:text="Username"
-                android:textSize="20sp" />
+                android:textSize="34sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_gravity="center|center_horizontal"
             android:layout_margin="10dp"
             android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
@@ -81,22 +85,25 @@
                 android:id="@+id/Phonenum"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
                 android:text="Phone:"
-                android:textSize="20sp" />
+                android:textSize="34sp" />
 
             <TextView
                 android:id="@+id/Number"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
                 android:layout_marginStart="10dp"
                 android:layout_marginLeft="10dp"
                 android:text="99999999999"
-                android:textSize="20sp" />
+                android:textSize="34sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_gravity="center|center_horizontal"
             android:layout_margin="10dp"
             android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
@@ -107,23 +114,26 @@
                 android:id="@+id/Emailid"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
                 android:text="Email:"
-                android:textSize="20sp" />
+                android:textSize="34sp" />
 
             <TextView
                 android:id="@+id/Email"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
                 android:layout_marginStart="10dp"
                 android:layout_marginLeft="10dp"
                 android:text="example@example.com"
-                android:textSize="20sp" />
+                android:textSize="34sp" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_gravity="center|center_horizontal"
             android:layout_margin="10dp"
             android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
@@ -134,22 +144,25 @@
                 android:id="@+id/Accno"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
                 android:text="Account No.:"
-                android:textSize="20sp" />
+                android:textSize="34sp" />
 
             <TextView
                 android:id="@+id/Acc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
                 android:layout_marginStart="10dp"
                 android:layout_marginLeft="10dp"
                 android:text="Number"
-                android:textSize="20sp" />
+                android:textSize="34sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_gravity="center|center_horizontal"
             android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
@@ -159,23 +172,26 @@
                 android:id="@+id/Ifsc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
                 android:text="IFSC:"
-                android:textSize="20sp" />
+                android:textSize="34sp" />
 
             <TextView
                 android:id="@+id/IFSC"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
                 android:layout_marginStart="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_weight="1"
                 android:text="CODE"
-                android:textSize="20sp" />
+                android:textSize="34sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_gravity="center|center_horizontal"
             android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
@@ -185,28 +201,30 @@
                 android:id="@+id/Balanc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
                 android:text="Balance:"
-                android:textSize="20sp" />
+                android:textSize="34sp" />
 
             <TextView
                 android:id="@+id/AMNT"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
                 android:layout_marginStart="10dp"
                 android:layout_marginLeft="10dp"
                 android:text="Balance"
-                android:textSize="20sp" />
+                android:textSize="34sp" />
         </LinearLayout>
 
         <Button
             android:id="@+id/Transfers"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="160dp"
-            android:layout_marginLeft="160dp"
+            android:layout_width="189dp"
+            android:layout_height="111dp"
+            android:layout_gravity="center|center_horizontal"
             android:layout_marginTop="20dp"
             android:background="@drawable/rbutton"
             android:text="Transfer"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
     </LinearLayout>
