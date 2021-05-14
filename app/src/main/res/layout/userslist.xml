@@ -16,6 +16,7 @@
         android:background="#E8ECEB"
         app:cardCornerRadius="20dp"
         app:cardElevation="8dp"
+        app:cardMaxElevation="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3">
