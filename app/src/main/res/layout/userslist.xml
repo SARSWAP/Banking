@@ -13,8 +13,9 @@
         android:layout_marginTop="2dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:background="@color/colorAccent"
+        android:background="#E8ECEB"
         app:cardCornerRadius="20dp"
+        app:cardElevation="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3">
@@ -22,7 +23,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/colorPrimary"
+            android:background="@color/ic_launcher_background"
             android:orientation="vertical">
 
             <TextView
@@ -32,7 +33,7 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginLeft="20dp"
                 android:text="NAME"
-                android:textColor="#F8F5F5"
+                android:textColor="#000000"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -45,7 +46,7 @@
                     android:id="@+id/phone"
                     android:layout_width="32dp"
                     android:layout_height="38dp"
-                    app:srcCompat="@android:drawable/stat_sys_phone_call" />
+                    app:srcCompat="@android:drawable/sym_action_call" />
 
                 <TextView
                     android:id="@+id/Phoneno"
@@ -53,7 +54,7 @@
                     android:layout_height="match_parent"
                     android:paddingTop="10.5px"
                     android:text="Phone"
-                    android:textColor="#EADADA"
+                    android:textColor="#000000"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
